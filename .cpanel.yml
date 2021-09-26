@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/snakeye1/public_html/porto_sidebar
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
